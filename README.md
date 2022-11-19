@@ -2,6 +2,15 @@
 KCL Hackathon Project
 
 https://www.figma.com/file/9db19YlFcuJqxFcYEHkWNQ/King's-Hack?node-id=0%3A1&t=I4iyhXR9t2Ag7Gm5-0
+
+(UNDERLINE) The Machine Learning Model
+We extract all the merchant names as well as money spent from the transaction data, converted this a CSV and used frequency analysis to search for common merchants in the transactions, which will be sent to the Google Cloud API's (NLP) to generate the custom sentences. The suggested saving strategy is calculated using a linear regression model - (lasso regression) favoring categories that are suggested based on the users spending.
+
+Refernces: 
+https://cloud.google.com/natural-language
+https://medium.com/analytics-vidhya/introduction-to-natural-language-processing-nlp-with-the-google-nlp-api-bddb2f2826b4
+https://github.com/dsbuddy/SimpliFi
+
 <img src="https://user-images.githubusercontent.com/22798773/202869772-8c7ee845-e2dc-44d8-baee-de2b6293aefd.png" width="230" height="500"> 
 <img src="https://user-images.githubusercontent.com/22798773/202869769-9db0f795-2f3e-408c-8d4a-b140728ae036.png" width="230" height="500"> 
 <img src="https://user-images.githubusercontent.com/22798773/202869773-123ad0c7-3b61-4057-bade-8ee43d92a658.png" width="230" height="500">
