@@ -49,12 +49,12 @@
 		808EBE632929357700E6BEA5 /* TrendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE622929357700E6BEA5 /* TrendsVC.swift */; };
 		808EBE6829293E3C00E6BEA5 /* AddBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE6729293E3C00E6BEA5 /* AddBudgetView.swift */; };
 		808EBE7229295A2B00E6BEA5 /* GrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE6B29295A2900E6BEA5 /* GrayButton.swift */; };
-		808EBE7329295A2B00E6BEA5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE6C29295A2900E6BEA5 /* HomeViewController.swift */; };
 		808EBE7429295A2B00E6BEA5 /* GrayButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE6D29295A2A00E6BEA5 /* GrayButtonsView.swift */; };
 		808EBE7529295A2B00E6BEA5 /* PurchasesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE6E29295A2A00E6BEA5 /* PurchasesCell.swift */; };
 		808EBE7629295A2B00E6BEA5 /* PurchaseStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE6F29295A2A00E6BEA5 /* PurchaseStruct.swift */; };
 		808EBE7729295A2B00E6BEA5 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE7029295A2A00E6BEA5 /* TopBarView.swift */; };
 		808EBE7829295A2B00E6BEA5 /* GreyButtonTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE7129295A2B00E6BEA5 /* GreyButtonTextView.swift */; };
+		808EBE7A292961FA00E6BEA5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE79292961FA00E6BEA5 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,12 +120,12 @@
 		808EBE622929357700E6BEA5 /* TrendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsVC.swift; sourceTree = "<group>"; };
 		808EBE6729293E3C00E6BEA5 /* AddBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetView.swift; sourceTree = "<group>"; };
 		808EBE6B29295A2900E6BEA5 /* GrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrayButton.swift; sourceTree = "<group>"; };
-		808EBE6C29295A2900E6BEA5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../../../../Downloads/KCLHackApp 2/KCLHackApp/Home/HomeViewController.swift"; sourceTree = "<group>"; };
 		808EBE6D29295A2A00E6BEA5 /* GrayButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrayButtonsView.swift; sourceTree = "<group>"; };
 		808EBE6E29295A2A00E6BEA5 /* PurchasesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasesCell.swift; sourceTree = "<group>"; };
 		808EBE6F29295A2A00E6BEA5 /* PurchaseStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseStruct.swift; sourceTree = "<group>"; };
 		808EBE7029295A2A00E6BEA5 /* TopBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
 		808EBE7129295A2B00E6BEA5 /* GreyButtonTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyButtonTextView.swift; sourceTree = "<group>"; };
+		808EBE79292961FA00E6BEA5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,7 +296,7 @@
 		808EBE64292935BF00E6BEA5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				808EBE6C29295A2900E6BEA5 /* HomeViewController.swift */,
+				808EBE79292961FA00E6BEA5 /* HomeViewController.swift */,
 				808EBE6B29295A2900E6BEA5 /* GrayButton.swift */,
 				808EBE6D29295A2A00E6BEA5 /* GrayButtonsView.swift */,
 				808EBE7129295A2B00E6BEA5 /* GreyButtonTextView.swift */,
@@ -448,7 +448,7 @@
 				808EBE5D2929327C00E6BEA5 /* GroupStruct.swift in Sources */,
 				808EBE632929357700E6BEA5 /* TrendsVC.swift in Sources */,
 				808EBE61292934AD00E6BEA5 /* TabBarController.swift in Sources */,
-				808EBE7329295A2B00E6BEA5 /* HomeViewController.swift in Sources */,
+				808EBE7A292961FA00E6BEA5 /* HomeViewController.swift in Sources */,
 				808EBE242928DCF400E6BEA5 /* QuestionStruct.swift in Sources */,
 				808EBE5C2929327C00E6BEA5 /* FriendStruct.swift in Sources */,
 				808EBE3D29291CF900E6BEA5 /* AnsweredQuestions.swift in Sources */,
