@@ -4,7 +4,7 @@ class TrendsVC: UIViewController {
     
     lazy var titleLabel: UILabel = {
         let text = UILabel()
-        text.layout(colour: .white, size: 30, text: "£407.29", bold: true)
+        text.layout(colour: .white, size: 40, text: "£407.29", bold: true)
         text.textAlignment = .center
         text.adjustsFontSizeToFitWidth = true
         text.numberOfLines = 0
@@ -25,12 +25,17 @@ class TrendsVC: UIViewController {
         return imageview
     }()
     
+    lazy var quizView: QuizView = {
+        let quizView = QuizView()
+        return quizView
+    }()
+    
     lazy var buttonStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .vertical
-        stackView.distribution = .fillEqually
-        stackView.alignment = .center
-        stackView.spacing = 12
+        stackView.distribution = .fill
+        stackView.alignment = .leading
+        stackView.spacing = 4
         stackView.addArrangedSubview(titleLabel)
         stackView.addArrangedSubview(subtitleLabel)
         stackView.addArrangedSubview(chartImage)
@@ -45,8 +50,12 @@ class TrendsVC: UIViewController {
     
     func setupView() {
         view.addSubview(buttonStackView)
+        view.addSubview(quizView)
         
-        buttonStackView.anchor(top: view?.safeAreaLayoutGuide.topAnchor, paddingTop: 20, bottom: nil, paddingBottom: 0, left: view?.leftAnchor, paddingLeft: 32, right: view.rightAnchor, paddingRight: 32, width: 0, height: 0)
+        buttonStackView.anchor(top: view.safeAreaLayoutGuide.topAnchor, paddingTop: 20, bottom: nil, paddingBottom: 0, left: view.leftAnchor, paddingLeft: 32, right: view.rightAnchor, paddingRight: 32, width: 0, height: 0)
+        chartImage.makeHeight(size: 250)
+        
+        quizView.anchor(top: buttonStackView.bottomAnchor, paddingTop: 0, bottom: nil, paddingBottom: 0, left: view.leftAnchor, paddingLeft: 32, right: view.rightAnchor, paddingRight: 32, width: 0, height: 0)
     }
     
     

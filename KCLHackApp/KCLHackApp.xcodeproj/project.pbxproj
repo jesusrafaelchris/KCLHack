@@ -55,6 +55,7 @@
 		808EBE7729295A2B00E6BEA5 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE7029295A2A00E6BEA5 /* TopBarView.swift */; };
 		808EBE7829295A2B00E6BEA5 /* GreyButtonTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE7129295A2B00E6BEA5 /* GreyButtonTextView.swift */; };
 		808EBE7A292961FA00E6BEA5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE79292961FA00E6BEA5 /* HomeViewController.swift */; };
+		808EBE7D292966C200E6BEA5 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE7C292966C200E6BEA5 /* QuizView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		808EBE7029295A2A00E6BEA5 /* TopBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
 		808EBE7129295A2B00E6BEA5 /* GreyButtonTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyButtonTextView.swift; sourceTree = "<group>"; };
 		808EBE79292961FA00E6BEA5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		808EBE7C292966C200E6BEA5 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +184,7 @@
 				808EBE502929326700E6BEA5 /* Groups */,
 				808EBE0F2928DAB000E6BEA5 /* Extensions */,
 				808EBE202928DC5300E6BEA5 /* Quiz */,
-				808EBE622929357700E6BEA5 /* TrendsVC.swift */,
+				808EBE7B292966B500E6BEA5 /* Trends */,
 				808EBE64292935BF00E6BEA5 /* Home */,
 				808EBE5F2929349600E6BEA5 /* TabBar */,
 			);
@@ -305,6 +307,15 @@
 				808EBE7029295A2A00E6BEA5 /* TopBarView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		808EBE7B292966B500E6BEA5 /* Trends */ = {
+			isa = PBXGroup;
+			children = (
+				808EBE622929357700E6BEA5 /* TrendsVC.swift */,
+				808EBE7C292966C200E6BEA5 /* QuizView.swift */,
+			);
+			path = Trends;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -460,6 +471,7 @@
 				808EBE7429295A2B00E6BEA5 /* GrayButtonsView.swift in Sources */,
 				808EBE4829292FAF00E6BEA5 /* UICollectionView+Ext.swift in Sources */,
 				808EBE1F2928DBDA00E6BEA5 /* QuizViewController.swift in Sources */,
+				808EBE7D292966C200E6BEA5 /* QuizView.swift in Sources */,
 				808EBDDF2928453E00E6BEA5 /* ViewController.swift in Sources */,
 				808EBE3F2929228600E6BEA5 /* SummaryCell.swift in Sources */,
 				808EBDDB2928453E00E6BEA5 /* AppDelegate.swift in Sources */,
