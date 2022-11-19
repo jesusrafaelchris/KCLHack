@@ -24,6 +24,21 @@
 		808EBE192928DAE000E6BEA5 /* UISearchTextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE182928DAE000E6BEA5 /* UISearchTextField+Ext.swift */; };
 		808EBE1B2928DAE300E6BEA5 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE1A2928DAE300E6BEA5 /* UITableView+Ext.swift */; };
 		808EBE1D2928DAE600E6BEA5 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE1C2928DAE600E6BEA5 /* UIView+Ext.swift */; };
+		808EBE1F2928DBDA00E6BEA5 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE1E2928DBDA00E6BEA5 /* QuizViewController.swift */; };
+		808EBE222928DC6300E6BEA5 /* QuizCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE212928DC6300E6BEA5 /* QuizCell.swift */; };
+		808EBE242928DCF400E6BEA5 /* QuestionStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE232928DCF400E6BEA5 /* QuestionStruct.swift */; };
+		808EBE262928E1F400E6BEA5 /* MultipleChoiceButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE252928E1F400E6BEA5 /* MultipleChoiceButtons.swift */; };
+		808EBE282928E25800E6BEA5 /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE272928E25800E6BEA5 /* ChoiceButton.swift */; };
+		808EBE2A2928E62000E6BEA5 /* ChoiceStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE292928E62000E6BEA5 /* ChoiceStruct.swift */; };
+		808EBE2C2928EB5000E6BEA5 /* TrueOrFalseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE2B2928EB4F00E6BEA5 /* TrueOrFalseButtonView.swift */; };
+		808EBE2E2928F47E00E6BEA5 /* WhiteBottomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE2D2928F47E00E6BEA5 /* WhiteBottomButton.swift */; };
+		808EBE312928F84000E6BEA5 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE302928F84000E6BEA5 /* ProgressView.swift */; };
+		808EBE342928F8A900E6BEA5 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE332928F8A900E6BEA5 /* ProgressBar.swift */; };
+		808EBE3729290AE100E6BEA5 /* SPConfetti in Frameworks */ = {isa = PBXBuildFile; productRef = 808EBE3629290AE100E6BEA5 /* SPConfetti */; };
+		808EBE39292914AD00E6BEA5 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE38292914AD00E6BEA5 /* SliderView.swift */; };
+		808EBE3B29291CCC00E6BEA5 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE3A29291CCC00E6BEA5 /* SummaryViewController.swift */; };
+		808EBE3D29291CF900E6BEA5 /* AnsweredQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE3C29291CF900E6BEA5 /* AnsweredQuestions.swift */; };
+		808EBE3F2929228600E6BEA5 /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE3E2929228600E6BEA5 /* SummaryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +80,20 @@
 		808EBE182928DAE000E6BEA5 /* UISearchTextField+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UISearchTextField+Ext.swift"; path = "KCLHackApp/Extensions1/UISearchTextField+Ext.swift"; sourceTree = SOURCE_ROOT; };
 		808EBE1A2928DAE300E6BEA5 /* UITableView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableView+Ext.swift"; path = "KCLHackApp/Extensions1/UITableView+Ext.swift"; sourceTree = SOURCE_ROOT; };
 		808EBE1C2928DAE600E6BEA5 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Ext.swift"; path = "KCLHackApp/Extensions1/UIView+Ext.swift"; sourceTree = SOURCE_ROOT; };
+		808EBE1E2928DBDA00E6BEA5 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		808EBE212928DC6300E6BEA5 /* QuizCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCell.swift; sourceTree = "<group>"; };
+		808EBE232928DCF400E6BEA5 /* QuestionStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStruct.swift; sourceTree = "<group>"; };
+		808EBE252928E1F400E6BEA5 /* MultipleChoiceButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceButtons.swift; sourceTree = "<group>"; };
+		808EBE272928E25800E6BEA5 /* ChoiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceButton.swift; sourceTree = "<group>"; };
+		808EBE292928E62000E6BEA5 /* ChoiceStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceStruct.swift; sourceTree = "<group>"; };
+		808EBE2B2928EB4F00E6BEA5 /* TrueOrFalseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueOrFalseButtonView.swift; sourceTree = "<group>"; };
+		808EBE2D2928F47E00E6BEA5 /* WhiteBottomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBottomButton.swift; sourceTree = "<group>"; };
+		808EBE302928F84000E6BEA5 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		808EBE332928F8A900E6BEA5 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		808EBE38292914AD00E6BEA5 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		808EBE3A29291CCC00E6BEA5 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		808EBE3C29291CF900E6BEA5 /* AnsweredQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnsweredQuestions.swift; sourceTree = "<group>"; };
+		808EBE3E2929228600E6BEA5 /* SummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808EBE3729290AE100E6BEA5 /* SPConfetti in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +148,7 @@
 				808EBE0F2928DAB000E6BEA5 /* Extensions */,
 				808EBE0C2928D91000E6BEA5 /* Core */,
 				808EBDE82928454000E6BEA5 /* Info.plist */,
+				808EBE202928DC5300E6BEA5 /* Quiz */,
 				808EBE0A2928D8FE00E6BEA5 /* ChatViewController.swift */,
 			);
 			path = KCLHackApp;
@@ -167,6 +198,43 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		808EBE202928DC5300E6BEA5 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				808EBE1E2928DBDA00E6BEA5 /* QuizViewController.swift */,
+				808EBE3A29291CCC00E6BEA5 /* SummaryViewController.swift */,
+				808EBE3E2929228600E6BEA5 /* SummaryCell.swift */,
+				808EBE3C29291CF900E6BEA5 /* AnsweredQuestions.swift */,
+				808EBE2F2928F82F00E6BEA5 /* QuizElements */,
+				808EBE2D2928F47E00E6BEA5 /* WhiteBottomButton.swift */,
+				808EBE322928F89C00E6BEA5 /* Progress */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		808EBE2F2928F82F00E6BEA5 /* QuizElements */ = {
+			isa = PBXGroup;
+			children = (
+				808EBE212928DC6300E6BEA5 /* QuizCell.swift */,
+				808EBE252928E1F400E6BEA5 /* MultipleChoiceButtons.swift */,
+				808EBE2B2928EB4F00E6BEA5 /* TrueOrFalseButtonView.swift */,
+				808EBE38292914AD00E6BEA5 /* SliderView.swift */,
+				808EBE272928E25800E6BEA5 /* ChoiceButton.swift */,
+				808EBE232928DCF400E6BEA5 /* QuestionStruct.swift */,
+				808EBE292928E62000E6BEA5 /* ChoiceStruct.swift */,
+			);
+			path = QuizElements;
+			sourceTree = "<group>";
+		};
+		808EBE322928F89C00E6BEA5 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				808EBE302928F84000E6BEA5 /* ProgressView.swift */,
+				808EBE332928F8A900E6BEA5 /* ProgressBar.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,6 +251,9 @@
 			dependencies = (
 			);
 			name = KCLHackApp;
+			packageProductDependencies = (
+				808EBE3629290AE100E6BEA5 /* SPConfetti */,
+			);
 			productName = KCLHackApp;
 			productReference = 808EBDD72928453E00E6BEA5 /* KCLHackApp.app */;
 			productType = "com.apple.product-type.application";
@@ -255,6 +326,9 @@
 				Base,
 			);
 			mainGroup = 808EBDCE2928453D00E6BEA5;
+			packageReferences = (
+				808EBE3529290AE100E6BEA5 /* XCRemoteSwiftPackageReference "SPConfetti" */,
+			);
 			productRefGroup = 808EBDD82928453E00E6BEA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -298,16 +372,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808EBE242928DCF400E6BEA5 /* QuestionStruct.swift in Sources */,
+				808EBE3D29291CF900E6BEA5 /* AnsweredQuestions.swift in Sources */,
 				808EBE152928DADA00E6BEA5 /* UIColor+Ext.swift in Sources */,
+				808EBE2E2928F47E00E6BEA5 /* WhiteBottomButton.swift in Sources */,
 				808EBE1D2928DAE600E6BEA5 /* UIView+Ext.swift in Sources */,
 				808EBE112928DAD100E6BEA5 /* UIButton+Ext.swift in Sources */,
+				808EBE282928E25800E6BEA5 /* ChoiceButton.swift in Sources */,
+				808EBE1F2928DBDA00E6BEA5 /* QuizViewController.swift in Sources */,
 				808EBDDF2928453E00E6BEA5 /* ViewController.swift in Sources */,
+				808EBE3F2929228600E6BEA5 /* SummaryCell.swift in Sources */,
 				808EBDDB2928453E00E6BEA5 /* AppDelegate.swift in Sources */,
 				808EBE0B2928D8FE00E6BEA5 /* ChatViewController.swift in Sources */,
+				808EBE2A2928E62000E6BEA5 /* ChoiceStruct.swift in Sources */,
 				808EBE132928DAD500E6BEA5 /* UICollectionView+Ext.swift in Sources */,
+				808EBE2C2928EB5000E6BEA5 /* TrueOrFalseButtonView.swift in Sources */,
+				808EBE342928F8A900E6BEA5 /* ProgressBar.swift in Sources */,
+				808EBE222928DC6300E6BEA5 /* QuizCell.swift in Sources */,
+				808EBE39292914AD00E6BEA5 /* SliderView.swift in Sources */,
 				808EBE192928DAE000E6BEA5 /* UISearchTextField+Ext.swift in Sources */,
 				808EBE1B2928DAE300E6BEA5 /* UITableView+Ext.swift in Sources */,
 				808EBE172928DADD00E6BEA5 /* UILabel+Ext.swift in Sources */,
+				808EBE312928F84000E6BEA5 /* ProgressView.swift in Sources */,
+				808EBE3B29291CCC00E6BEA5 /* SummaryViewController.swift in Sources */,
+				808EBE262928E1F400E6BEA5 /* MultipleChoiceButtons.swift in Sources */,
 				808EBDDD2928453E00E6BEA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -650,6 +738,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		808EBE3529290AE100E6BEA5 /* XCRemoteSwiftPackageReference "SPConfetti" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivanvorobei/SPConfetti";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		808EBE3629290AE100E6BEA5 /* SPConfetti */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 808EBE3529290AE100E6BEA5 /* XCRemoteSwiftPackageReference "SPConfetti" */;
+			productName = SPConfetti;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 808EBDCF2928453D00E6BEA5 /* Project object */;
 }
