@@ -4,7 +4,7 @@ class SummaryCell: UICollectionViewCell {
     
     lazy var titleLabel: UILabel = {
         let text = UILabel()
-        text.layout(colour: .white, size: 16, text: "", bold: true)
+        text.layout(colour: .white, size: 16, text: "", bold: false)
         text.textAlignment = .left
         text.adjustsFontSizeToFitWidth = true
         text.numberOfLines = 0
@@ -29,7 +29,12 @@ class SummaryCell: UICollectionViewCell {
     
     func configure(question: String, correct: Bool) {
         titleLabel.text = question
-        emojiLabel.text = correct ? "✅" : "❌"
+        if correct {
+            emojiLabel.text = "✅"
+        }
+        else {
+            emojiLabel.text = "❌"
+        }
     }
     
     func setupView() {

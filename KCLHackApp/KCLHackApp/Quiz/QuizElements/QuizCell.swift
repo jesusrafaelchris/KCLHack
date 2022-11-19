@@ -32,7 +32,7 @@ class QuizCell: UICollectionViewCell {
         let view = SliderView()
         return view
     }()
-    
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()

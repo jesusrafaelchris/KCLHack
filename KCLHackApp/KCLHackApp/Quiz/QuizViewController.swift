@@ -4,6 +4,7 @@ import SPConfetti
 class QuizViewController: UIViewController {
     
     var answers = [AnsweredQuestions]()
+    var value = 0
     
     var quizQuestions: [Question] = [
         Question(question: "How much did u spend on nandos this week?", image: "🍔", answerType: QuestionTypes.multipleChoice, answer: "£300", choices: Choices(choice1: "£500", choice2: "£300", choice3: "£100")),
@@ -33,23 +34,64 @@ class QuizViewController: UIViewController {
         return collectionview
     }()
     
+    lazy var errorMessage: UILabel = {
+        let text = UILabel()
+        text.layout(colour: .white, size: 16, text: "Error", bold: true)
+        text.textAlignment = .center
+        text.adjustsFontSizeToFitWidth = true
+        text.numberOfLines = 0
+        text.isHidden = true
+        return text
+    }()
+    
+    lazy var addBudget: AddBudgetView = {
+        let addBudget = AddBudgetView()
+        addBudget.isHidden = true
+        return addBudget
+    }()
+    
     lazy var continueButton = WhiteBottomButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .black
         setupView()
         continueButton.isHidden = true
         continueButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(scroll)))
+        
+        addBudget.plusButton.addTarget(self, action: #selector(increaseValue), for: .touchUpInside)
+        addBudget.minusButton.addTarget(self, action: #selector(decreaseValue), for: .touchUpInside)
     }
+    
+    @objc func decreaseValue() {
+        if value > 0 {
+            value = value - 1
+            addBudget.budgetValue.text = "\(value)"
+        }
+    }
+    
+    @objc func increaseValue() {
+        value = value + 1
+        addBudget.budgetValue.text = "\(value)"
+    }
+    
     
     func setupView() {
         view.addSubview(progressView)
         view.addSubview(quizCollectionView)
+        quizCollectionView.addSubview(errorMessage)
+        view.addSubview(addBudget)
         view.addSubview(continueButton)
         
         progressView.anchor(top: view.safeAreaLayoutGuide.topAnchor, paddingTop: 10, bottom: nil, paddingBottom: 0, left: view.leftAnchor, paddingLeft: 16, right: view.rightAnchor, paddingRight: 16, width: 0, height: 0)
         
         quizCollectionView.anchor(top: view.topAnchor, paddingTop: 10, bottom: continueButton.topAnchor, paddingBottom: 10, left: view.leftAnchor, paddingLeft: 0, right: view.rightAnchor, paddingRight: 0, width: 0, height: 0)
+        
+        errorMessage.anchor(top: nil, paddingTop: 0, bottom: nil, paddingBottom: 0, left: view.leftAnchor, paddingLeft: 32, right: view.rightAnchor, paddingRight: 32, width: 0, height: 0)
+        
+        errorMessage.topAnchor.constraint(equalTo: quizCollectionView.centerYAnchor, constant: 180).isActive = true
+        
+        addBudget.anchor(top: errorMessage.bottomAnchor, paddingTop: 20, bottom: nil, paddingBottom: 0, left: view.leftAnchor, paddingLeft: 90, right: view.rightAnchor, paddingRight: 90, width: 0, height: 0)
         
         continueButton.anchor(top: nil, paddingTop: 0,
                               bottom: view.safeAreaLayoutGuide.bottomAnchor, paddingBottom: 10,
@@ -65,6 +107,8 @@ class QuizViewController: UIViewController {
             continueButton.isHidden = true
             quizCollectionView.isUserInteractionEnabled = true
             progressView.resetAll()
+            hideErrorMessage()
+            hideAddBudget()
             progressView.views[self.indexPath.item].select()
             self.quizCollectionView.scrollToItem(at: indexPath, at: [.centeredVertically, .centeredHorizontally], animated: false)
             index = index + 1
@@ -133,6 +177,7 @@ extension QuizViewController: MultipleChoiceSelectionDelegate, TrueOrFalseSelect
             answers.append(AnsweredQuestions(questiontitle: question, correct: true))
         }
         else {
+            showErrorMessage(error: "Because of your daily trips to Pret, your daily spending has gone up by 7.8%")
             button.backgroundColor = .red
             quizCollectionView.isUserInteractionEnabled = false
             continueButton.isHidden = false
@@ -151,10 +196,12 @@ extension QuizViewController: MultipleChoiceSelectionDelegate, TrueOrFalseSelect
             answers.append(AnsweredQuestions(questiontitle: question, correct: true))
         }
         else {
+            showErrorMessage(error: "You really love to shop! Try setting a budget for your shopping to try to save some money on those ")
+            showAddBudget()
             button.backgroundColor = .red
             quizCollectionView.isUserInteractionEnabled = false
             continueButton.isHidden = false
-            answers.append(AnsweredQuestions(questiontitle: question, correct: true))
+            answers.append(AnsweredQuestions(questiontitle: question, correct: false))
         }
     }
     
@@ -168,11 +215,29 @@ extension QuizViewController: MultipleChoiceSelectionDelegate, TrueOrFalseSelect
             answers.append(AnsweredQuestions(questiontitle: question, correct: true))
         }
         else {
+            showErrorMessage(error: "Hello")
             slider.tintColor = .red
             continueButton.isHidden = false
             quizCollectionView.isUserInteractionEnabled = false
-            answers.append(AnsweredQuestions(questiontitle: question, correct: true))
+            answers.append(AnsweredQuestions(questiontitle: question, correct: false))
         }
+    }
+    
+    func showErrorMessage(error: String) {
+        errorMessage.isHidden = false
+        errorMessage.text = error
+    }
+    
+    func hideErrorMessage() {
+        errorMessage.isHidden = true
+    }
+    
+    func showAddBudget() {
+        addBudget.isHidden = false
+    }
+    
+    func hideAddBudget() {
+        addBudget.isHidden = true
     }
     
 }
