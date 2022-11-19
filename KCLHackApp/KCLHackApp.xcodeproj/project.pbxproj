@@ -45,6 +45,9 @@
 		808EBE5C2929327C00E6BEA5 /* FriendStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE552929327C00E6BEA5 /* FriendStruct.swift */; };
 		808EBE5D2929327C00E6BEA5 /* GroupStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE562929327C00E6BEA5 /* GroupStruct.swift */; };
 		808EBE5E2929327C00E6BEA5 /* PotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE572929327C00E6BEA5 /* PotView.swift */; };
+		808EBE61292934AD00E6BEA5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE60292934AD00E6BEA5 /* TabBarController.swift */; };
+		808EBE632929357700E6BEA5 /* TrendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE622929357700E6BEA5 /* TrendsVC.swift */; };
+		808EBE66292935C900E6BEA5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE65292935C900E6BEA5 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +109,9 @@
 		808EBE552929327C00E6BEA5 /* FriendStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendStruct.swift; sourceTree = "<group>"; };
 		808EBE562929327C00E6BEA5 /* GroupStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupStruct.swift; sourceTree = "<group>"; };
 		808EBE572929327C00E6BEA5 /* PotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotView.swift; sourceTree = "<group>"; };
+		808EBE60292934AD00E6BEA5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		808EBE622929357700E6BEA5 /* TrendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsVC.swift; sourceTree = "<group>"; };
+		808EBE65292935C900E6BEA5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +168,9 @@
 				808EBE502929326700E6BEA5 /* Groups */,
 				808EBE0F2928DAB000E6BEA5 /* Extensions */,
 				808EBE202928DC5300E6BEA5 /* Quiz */,
+				808EBE622929357700E6BEA5 /* TrendsVC.swift */,
+				808EBE64292935BF00E6BEA5 /* Home */,
+				808EBE5F2929349600E6BEA5 /* TabBar */,
 			);
 			path = KCLHackApp;
 			sourceTree = "<group>";
@@ -259,6 +268,22 @@
 				808EBE542929327C00E6BEA5 /* PotViewController.swift */,
 			);
 			path = Groups;
+			sourceTree = "<group>";
+		};
+		808EBE5F2929349600E6BEA5 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				808EBE60292934AD00E6BEA5 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		808EBE64292935BF00E6BEA5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				808EBE65292935C900E6BEA5 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,6 +424,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				808EBE5D2929327C00E6BEA5 /* GroupStruct.swift in Sources */,
+				808EBE632929357700E6BEA5 /* TrendsVC.swift in Sources */,
+				808EBE61292934AD00E6BEA5 /* TabBarController.swift in Sources */,
+				808EBE66292935C900E6BEA5 /* HomeViewController.swift in Sources */,
 				808EBE242928DCF400E6BEA5 /* QuestionStruct.swift in Sources */,
 				808EBE5C2929327C00E6BEA5 /* FriendStruct.swift in Sources */,
 				808EBE3D29291CF900E6BEA5 /* AnsweredQuestions.swift in Sources */,
