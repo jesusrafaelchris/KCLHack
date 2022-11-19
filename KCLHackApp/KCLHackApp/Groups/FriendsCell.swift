@@ -26,7 +26,7 @@ class FriendsCell: UICollectionViewCell {
     
     lazy var rankLabel: UILabel = {
         let rank = UILabel()
-        rank.layout(colour: .red, size: 14, text: "1", bold: true)
+        rank.layout(colour: .white, size: 14, text: "1", bold: true)
         rank.backgroundColor = .orange
         rank.layer.cornerRadius = 7.5
         rank.layer.masksToBounds = true
