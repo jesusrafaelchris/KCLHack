@@ -16,7 +16,6 @@
 		808EBDF22928454000E6BEA5 /* KCLHackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBDF12928454000E6BEA5 /* KCLHackAppTests.swift */; };
 		808EBDFC2928454000E6BEA5 /* KCLHackAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBDFB2928454000E6BEA5 /* KCLHackAppUITests.swift */; };
 		808EBDFE2928454000E6BEA5 /* KCLHackAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBDFD2928454000E6BEA5 /* KCLHackAppUITestsLaunchTests.swift */; };
-		808EBE0B2928D8FE00E6BEA5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE0A2928D8FE00E6BEA5 /* ChatViewController.swift */; };
 		808EBE1F2928DBDA00E6BEA5 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE1E2928DBDA00E6BEA5 /* QuizViewController.swift */; };
 		808EBE222928DC6300E6BEA5 /* QuizCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE212928DC6300E6BEA5 /* QuizCell.swift */; };
 		808EBE242928DCF400E6BEA5 /* QuestionStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE232928DCF400E6BEA5 /* QuestionStruct.swift */; };
@@ -39,6 +38,13 @@
 		808EBE4B29292FAF00E6BEA5 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4429292FAE00E6BEA5 /* UIButton+Ext.swift */; };
 		808EBE4C29292FAF00E6BEA5 /* UISearchTextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4529292FAF00E6BEA5 /* UISearchTextField+Ext.swift */; };
 		808EBE4D29292FAF00E6BEA5 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4629292FAF00E6BEA5 /* UIColor+Ext.swift */; };
+		808EBE582929327C00E6BEA5 /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE512929327B00E6BEA5 /* FriendsCell.swift */; };
+		808EBE592929327C00E6BEA5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE522929327B00E6BEA5 /* ChatViewController.swift */; };
+		808EBE5A2929327C00E6BEA5 /* GroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE532929327C00E6BEA5 /* GroupsCell.swift */; };
+		808EBE5B2929327C00E6BEA5 /* PotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE542929327C00E6BEA5 /* PotViewController.swift */; };
+		808EBE5C2929327C00E6BEA5 /* FriendStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE552929327C00E6BEA5 /* FriendStruct.swift */; };
+		808EBE5D2929327C00E6BEA5 /* GroupStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE562929327C00E6BEA5 /* GroupStruct.swift */; };
+		808EBE5E2929327C00E6BEA5 /* PotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE572929327C00E6BEA5 /* PotView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +78,6 @@
 		808EBDF72928454000E6BEA5 /* KCLHackAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCLHackAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		808EBDFB2928454000E6BEA5 /* KCLHackAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCLHackAppUITests.swift; sourceTree = "<group>"; };
 		808EBDFD2928454000E6BEA5 /* KCLHackAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCLHackAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		808EBE0A2928D8FE00E6BEA5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		808EBE1E2928DBDA00E6BEA5 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		808EBE212928DC6300E6BEA5 /* QuizCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCell.swift; sourceTree = "<group>"; };
 		808EBE232928DCF400E6BEA5 /* QuestionStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStruct.swift; sourceTree = "<group>"; };
@@ -94,6 +99,13 @@
 		808EBE4429292FAE00E6BEA5 /* UIButton+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
 		808EBE4529292FAF00E6BEA5 /* UISearchTextField+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchTextField+Ext.swift"; sourceTree = "<group>"; };
 		808EBE4629292FAF00E6BEA5 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		808EBE512929327B00E6BEA5 /* FriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
+		808EBE522929327B00E6BEA5 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		808EBE532929327C00E6BEA5 /* GroupsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsCell.swift; sourceTree = "<group>"; };
+		808EBE542929327C00E6BEA5 /* PotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotViewController.swift; sourceTree = "<group>"; };
+		808EBE552929327C00E6BEA5 /* FriendStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendStruct.swift; sourceTree = "<group>"; };
+		808EBE562929327C00E6BEA5 /* GroupStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupStruct.swift; sourceTree = "<group>"; };
+		808EBE572929327C00E6BEA5 /* PotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,11 +157,11 @@
 		808EBDD92928453E00E6BEA5 /* KCLHackApp */ = {
 			isa = PBXGroup;
 			children = (
-				808EBE0F2928DAB000E6BEA5 /* Extensions */,
-				808EBE0C2928D91000E6BEA5 /* Core */,
 				808EBDE82928454000E6BEA5 /* Info.plist */,
+				808EBE0C2928D91000E6BEA5 /* Core */,
+				808EBE502929326700E6BEA5 /* Groups */,
+				808EBE0F2928DAB000E6BEA5 /* Extensions */,
 				808EBE202928DC5300E6BEA5 /* Quiz */,
-				808EBE0A2928D8FE00E6BEA5 /* ChatViewController.swift */,
 			);
 			path = KCLHackApp;
 			sourceTree = "<group>";
@@ -233,6 +245,20 @@
 				808EBE332928F8A900E6BEA5 /* ProgressBar.swift */,
 			);
 			path = Progress;
+			sourceTree = "<group>";
+		};
+		808EBE502929326700E6BEA5 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				808EBE522929327B00E6BEA5 /* ChatViewController.swift */,
+				808EBE512929327B00E6BEA5 /* FriendsCell.swift */,
+				808EBE552929327C00E6BEA5 /* FriendStruct.swift */,
+				808EBE532929327C00E6BEA5 /* GroupsCell.swift */,
+				808EBE562929327C00E6BEA5 /* GroupStruct.swift */,
+				808EBE572929327C00E6BEA5 /* PotView.swift */,
+				808EBE542929327C00E6BEA5 /* PotViewController.swift */,
+			);
+			path = Groups;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,7 +398,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808EBE5D2929327C00E6BEA5 /* GroupStruct.swift in Sources */,
 				808EBE242928DCF400E6BEA5 /* QuestionStruct.swift in Sources */,
+				808EBE5C2929327C00E6BEA5 /* FriendStruct.swift in Sources */,
 				808EBE3D29291CF900E6BEA5 /* AnsweredQuestions.swift in Sources */,
 				808EBE2E2928F47E00E6BEA5 /* WhiteBottomButton.swift in Sources */,
 				808EBE4D29292FAF00E6BEA5 /* UIColor+Ext.swift in Sources */,
@@ -383,17 +411,21 @@
 				808EBDDF2928453E00E6BEA5 /* ViewController.swift in Sources */,
 				808EBE3F2929228600E6BEA5 /* SummaryCell.swift in Sources */,
 				808EBDDB2928453E00E6BEA5 /* AppDelegate.swift in Sources */,
-				808EBE0B2928D8FE00E6BEA5 /* ChatViewController.swift in Sources */,
 				808EBE2A2928E62000E6BEA5 /* ChoiceStruct.swift in Sources */,
+				808EBE5A2929327C00E6BEA5 /* GroupsCell.swift in Sources */,
+				808EBE5E2929327C00E6BEA5 /* PotView.swift in Sources */,
 				808EBE2C2928EB5000E6BEA5 /* TrueOrFalseButtonView.swift in Sources */,
 				808EBE4C29292FAF00E6BEA5 /* UISearchTextField+Ext.swift in Sources */,
 				808EBE4A29292FAF00E6BEA5 /* UILabel+Ext.swift in Sources */,
 				808EBE342928F8A900E6BEA5 /* ProgressBar.swift in Sources */,
+				808EBE582929327C00E6BEA5 /* FriendsCell.swift in Sources */,
 				808EBE222928DC6300E6BEA5 /* QuizCell.swift in Sources */,
 				808EBE39292914AD00E6BEA5 /* SliderView.swift in Sources */,
 				808EBE312928F84000E6BEA5 /* ProgressView.swift in Sources */,
 				808EBE4729292FAF00E6BEA5 /* UIView+Ext.swift in Sources */,
 				808EBE3B29291CCC00E6BEA5 /* SummaryViewController.swift in Sources */,
+				808EBE592929327C00E6BEA5 /* ChatViewController.swift in Sources */,
+				808EBE5B2929327C00E6BEA5 /* PotViewController.swift in Sources */,
 				808EBE4929292FAF00E6BEA5 /* UITableView+Ext.swift in Sources */,
 				808EBE262928E1F400E6BEA5 /* MultipleChoiceButtons.swift in Sources */,
 				808EBDDD2928453E00E6BEA5 /* SceneDelegate.swift in Sources */,
