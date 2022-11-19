@@ -17,13 +17,6 @@
 		808EBDFC2928454000E6BEA5 /* KCLHackAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBDFB2928454000E6BEA5 /* KCLHackAppUITests.swift */; };
 		808EBDFE2928454000E6BEA5 /* KCLHackAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBDFD2928454000E6BEA5 /* KCLHackAppUITestsLaunchTests.swift */; };
 		808EBE0B2928D8FE00E6BEA5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE0A2928D8FE00E6BEA5 /* ChatViewController.swift */; };
-		808EBE112928DAD100E6BEA5 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE102928DAD100E6BEA5 /* UIButton+Ext.swift */; };
-		808EBE132928DAD500E6BEA5 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE122928DAD500E6BEA5 /* UICollectionView+Ext.swift */; };
-		808EBE152928DADA00E6BEA5 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE142928DAD900E6BEA5 /* UIColor+Ext.swift */; };
-		808EBE172928DADD00E6BEA5 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE162928DADD00E6BEA5 /* UILabel+Ext.swift */; };
-		808EBE192928DAE000E6BEA5 /* UISearchTextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE182928DAE000E6BEA5 /* UISearchTextField+Ext.swift */; };
-		808EBE1B2928DAE300E6BEA5 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE1A2928DAE300E6BEA5 /* UITableView+Ext.swift */; };
-		808EBE1D2928DAE600E6BEA5 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE1C2928DAE600E6BEA5 /* UIView+Ext.swift */; };
 		808EBE1F2928DBDA00E6BEA5 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE1E2928DBDA00E6BEA5 /* QuizViewController.swift */; };
 		808EBE222928DC6300E6BEA5 /* QuizCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE212928DC6300E6BEA5 /* QuizCell.swift */; };
 		808EBE242928DCF400E6BEA5 /* QuestionStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE232928DCF400E6BEA5 /* QuestionStruct.swift */; };
@@ -39,6 +32,13 @@
 		808EBE3B29291CCC00E6BEA5 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE3A29291CCC00E6BEA5 /* SummaryViewController.swift */; };
 		808EBE3D29291CF900E6BEA5 /* AnsweredQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE3C29291CF900E6BEA5 /* AnsweredQuestions.swift */; };
 		808EBE3F2929228600E6BEA5 /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE3E2929228600E6BEA5 /* SummaryCell.swift */; };
+		808EBE4729292FAF00E6BEA5 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4029292FAE00E6BEA5 /* UIView+Ext.swift */; };
+		808EBE4829292FAF00E6BEA5 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4129292FAE00E6BEA5 /* UICollectionView+Ext.swift */; };
+		808EBE4929292FAF00E6BEA5 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4229292FAE00E6BEA5 /* UITableView+Ext.swift */; };
+		808EBE4A29292FAF00E6BEA5 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4329292FAE00E6BEA5 /* UILabel+Ext.swift */; };
+		808EBE4B29292FAF00E6BEA5 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4429292FAE00E6BEA5 /* UIButton+Ext.swift */; };
+		808EBE4C29292FAF00E6BEA5 /* UISearchTextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4529292FAF00E6BEA5 /* UISearchTextField+Ext.swift */; };
+		808EBE4D29292FAF00E6BEA5 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4629292FAF00E6BEA5 /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,13 +73,6 @@
 		808EBDFB2928454000E6BEA5 /* KCLHackAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCLHackAppUITests.swift; sourceTree = "<group>"; };
 		808EBDFD2928454000E6BEA5 /* KCLHackAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCLHackAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		808EBE0A2928D8FE00E6BEA5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		808EBE102928DAD100E6BEA5 /* UIButton+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+Ext.swift"; path = "KCLHackApp/Extensions1/UIButton+Ext.swift"; sourceTree = SOURCE_ROOT; };
-		808EBE122928DAD500E6BEA5 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Ext.swift"; path = "KCLHackApp/Extensions1/UICollectionView+Ext.swift"; sourceTree = SOURCE_ROOT; };
-		808EBE142928DAD900E6BEA5 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Ext.swift"; path = "KCLHackApp/Extensions1/UIColor+Ext.swift"; sourceTree = SOURCE_ROOT; };
-		808EBE162928DADD00E6BEA5 /* UILabel+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel+Ext.swift"; path = "KCLHackApp/Extensions1/UILabel+Ext.swift"; sourceTree = SOURCE_ROOT; };
-		808EBE182928DAE000E6BEA5 /* UISearchTextField+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UISearchTextField+Ext.swift"; path = "KCLHackApp/Extensions1/UISearchTextField+Ext.swift"; sourceTree = SOURCE_ROOT; };
-		808EBE1A2928DAE300E6BEA5 /* UITableView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableView+Ext.swift"; path = "KCLHackApp/Extensions1/UITableView+Ext.swift"; sourceTree = SOURCE_ROOT; };
-		808EBE1C2928DAE600E6BEA5 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Ext.swift"; path = "KCLHackApp/Extensions1/UIView+Ext.swift"; sourceTree = SOURCE_ROOT; };
 		808EBE1E2928DBDA00E6BEA5 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		808EBE212928DC6300E6BEA5 /* QuizCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCell.swift; sourceTree = "<group>"; };
 		808EBE232928DCF400E6BEA5 /* QuestionStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStruct.swift; sourceTree = "<group>"; };
@@ -94,6 +87,13 @@
 		808EBE3A29291CCC00E6BEA5 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		808EBE3C29291CF900E6BEA5 /* AnsweredQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnsweredQuestions.swift; sourceTree = "<group>"; };
 		808EBE3E2929228600E6BEA5 /* SummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCell.swift; sourceTree = "<group>"; };
+		808EBE4029292FAE00E6BEA5 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		808EBE4129292FAE00E6BEA5 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		808EBE4229292FAE00E6BEA5 /* UITableView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		808EBE4329292FAE00E6BEA5 /* UILabel+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
+		808EBE4429292FAE00E6BEA5 /* UIButton+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		808EBE4529292FAF00E6BEA5 /* UISearchTextField+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchTextField+Ext.swift"; sourceTree = "<group>"; };
+		808EBE4629292FAF00E6BEA5 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,13 +187,13 @@
 		808EBE0F2928DAB000E6BEA5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				808EBE1A2928DAE300E6BEA5 /* UITableView+Ext.swift */,
-				808EBE1C2928DAE600E6BEA5 /* UIView+Ext.swift */,
-				808EBE162928DADD00E6BEA5 /* UILabel+Ext.swift */,
-				808EBE182928DAE000E6BEA5 /* UISearchTextField+Ext.swift */,
-				808EBE142928DAD900E6BEA5 /* UIColor+Ext.swift */,
-				808EBE122928DAD500E6BEA5 /* UICollectionView+Ext.swift */,
-				808EBE102928DAD100E6BEA5 /* UIButton+Ext.swift */,
+				808EBE4429292FAE00E6BEA5 /* UIButton+Ext.swift */,
+				808EBE4129292FAE00E6BEA5 /* UICollectionView+Ext.swift */,
+				808EBE4629292FAF00E6BEA5 /* UIColor+Ext.swift */,
+				808EBE4329292FAE00E6BEA5 /* UILabel+Ext.swift */,
+				808EBE4529292FAF00E6BEA5 /* UISearchTextField+Ext.swift */,
+				808EBE4229292FAE00E6BEA5 /* UITableView+Ext.swift */,
+				808EBE4029292FAE00E6BEA5 /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -374,27 +374,27 @@
 			files = (
 				808EBE242928DCF400E6BEA5 /* QuestionStruct.swift in Sources */,
 				808EBE3D29291CF900E6BEA5 /* AnsweredQuestions.swift in Sources */,
-				808EBE152928DADA00E6BEA5 /* UIColor+Ext.swift in Sources */,
 				808EBE2E2928F47E00E6BEA5 /* WhiteBottomButton.swift in Sources */,
-				808EBE1D2928DAE600E6BEA5 /* UIView+Ext.swift in Sources */,
-				808EBE112928DAD100E6BEA5 /* UIButton+Ext.swift in Sources */,
+				808EBE4D29292FAF00E6BEA5 /* UIColor+Ext.swift in Sources */,
+				808EBE4B29292FAF00E6BEA5 /* UIButton+Ext.swift in Sources */,
 				808EBE282928E25800E6BEA5 /* ChoiceButton.swift in Sources */,
+				808EBE4829292FAF00E6BEA5 /* UICollectionView+Ext.swift in Sources */,
 				808EBE1F2928DBDA00E6BEA5 /* QuizViewController.swift in Sources */,
 				808EBDDF2928453E00E6BEA5 /* ViewController.swift in Sources */,
 				808EBE3F2929228600E6BEA5 /* SummaryCell.swift in Sources */,
 				808EBDDB2928453E00E6BEA5 /* AppDelegate.swift in Sources */,
 				808EBE0B2928D8FE00E6BEA5 /* ChatViewController.swift in Sources */,
 				808EBE2A2928E62000E6BEA5 /* ChoiceStruct.swift in Sources */,
-				808EBE132928DAD500E6BEA5 /* UICollectionView+Ext.swift in Sources */,
 				808EBE2C2928EB5000E6BEA5 /* TrueOrFalseButtonView.swift in Sources */,
+				808EBE4C29292FAF00E6BEA5 /* UISearchTextField+Ext.swift in Sources */,
+				808EBE4A29292FAF00E6BEA5 /* UILabel+Ext.swift in Sources */,
 				808EBE342928F8A900E6BEA5 /* ProgressBar.swift in Sources */,
 				808EBE222928DC6300E6BEA5 /* QuizCell.swift in Sources */,
 				808EBE39292914AD00E6BEA5 /* SliderView.swift in Sources */,
-				808EBE192928DAE000E6BEA5 /* UISearchTextField+Ext.swift in Sources */,
-				808EBE1B2928DAE300E6BEA5 /* UITableView+Ext.swift in Sources */,
-				808EBE172928DADD00E6BEA5 /* UILabel+Ext.swift in Sources */,
 				808EBE312928F84000E6BEA5 /* ProgressView.swift in Sources */,
+				808EBE4729292FAF00E6BEA5 /* UIView+Ext.swift in Sources */,
 				808EBE3B29291CCC00E6BEA5 /* SummaryViewController.swift in Sources */,
+				808EBE4929292FAF00E6BEA5 /* UITableView+Ext.swift in Sources */,
 				808EBE262928E1F400E6BEA5 /* MultipleChoiceButtons.swift in Sources */,
 				808EBDDD2928453E00E6BEA5 /* SceneDelegate.swift in Sources */,
 			);
