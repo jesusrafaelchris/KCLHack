@@ -4,6 +4,7 @@ KCL Hackathon Project
 https://www.figma.com/file/9db19YlFcuJqxFcYEHkWNQ/King's-Hack?node-id=0%3A1&t=I4iyhXR9t2Ag7Gm5-0
 
 <ins>The Machine Learning Model</ins>
+
 We extract all the merchant names as well as money spent from the transaction data, converted this a CSV and used frequency analysis to search for common merchants in the transactions, which will be sent to the Google Cloud API's (NLP) to generate the custom sentences. The suggested saving strategy is calculated using a linear regression model - (lasso regression) favoring categories that are suggested based on the users spending.
 
 Refernces: 
