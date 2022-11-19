@@ -38,13 +38,6 @@
 		808EBE4B29292FAF00E6BEA5 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4429292FAE00E6BEA5 /* UIButton+Ext.swift */; };
 		808EBE4C29292FAF00E6BEA5 /* UISearchTextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4529292FAF00E6BEA5 /* UISearchTextField+Ext.swift */; };
 		808EBE4D29292FAF00E6BEA5 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE4629292FAF00E6BEA5 /* UIColor+Ext.swift */; };
-		808EBE582929327C00E6BEA5 /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE512929327B00E6BEA5 /* FriendsCell.swift */; };
-		808EBE592929327C00E6BEA5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE522929327B00E6BEA5 /* ChatViewController.swift */; };
-		808EBE5A2929327C00E6BEA5 /* GroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE532929327C00E6BEA5 /* GroupsCell.swift */; };
-		808EBE5B2929327C00E6BEA5 /* PotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE542929327C00E6BEA5 /* PotViewController.swift */; };
-		808EBE5C2929327C00E6BEA5 /* FriendStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE552929327C00E6BEA5 /* FriendStruct.swift */; };
-		808EBE5D2929327C00E6BEA5 /* GroupStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE562929327C00E6BEA5 /* GroupStruct.swift */; };
-		808EBE5E2929327C00E6BEA5 /* PotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE572929327C00E6BEA5 /* PotView.swift */; };
 		808EBE61292934AD00E6BEA5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE60292934AD00E6BEA5 /* TabBarController.swift */; };
 		808EBE632929357700E6BEA5 /* TrendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE622929357700E6BEA5 /* TrendsVC.swift */; };
 		808EBE6829293E3C00E6BEA5 /* AddBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE6729293E3C00E6BEA5 /* AddBudgetView.swift */; };
@@ -56,6 +49,13 @@
 		808EBE7829295A2B00E6BEA5 /* GreyButtonTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE7129295A2B00E6BEA5 /* GreyButtonTextView.swift */; };
 		808EBE7A292961FA00E6BEA5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE79292961FA00E6BEA5 /* HomeViewController.swift */; };
 		808EBE7D292966C200E6BEA5 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE7C292966C200E6BEA5 /* QuizView.swift */; };
+		808EBE8529296B0F00E6BEA5 /* PotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE7E29296B0E00E6BEA5 /* PotViewController.swift */; };
+		808EBE8629296B0F00E6BEA5 /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE7F29296B0E00E6BEA5 /* FriendsCell.swift */; };
+		808EBE8729296B0F00E6BEA5 /* GroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE8029296B0F00E6BEA5 /* GroupsCell.swift */; };
+		808EBE8829296B0F00E6BEA5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE8129296B0F00E6BEA5 /* ChatViewController.swift */; };
+		808EBE8929296B0F00E6BEA5 /* GroupStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE8229296B0F00E6BEA5 /* GroupStruct.swift */; };
+		808EBE8A29296B0F00E6BEA5 /* PotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE8329296B0F00E6BEA5 /* PotView.swift */; };
+		808EBE8B29296B0F00E6BEA5 /* FriendStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE8429296B0F00E6BEA5 /* FriendStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,13 +110,6 @@
 		808EBE4429292FAE00E6BEA5 /* UIButton+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
 		808EBE4529292FAF00E6BEA5 /* UISearchTextField+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchTextField+Ext.swift"; sourceTree = "<group>"; };
 		808EBE4629292FAF00E6BEA5 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
-		808EBE512929327B00E6BEA5 /* FriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
-		808EBE522929327B00E6BEA5 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		808EBE532929327C00E6BEA5 /* GroupsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsCell.swift; sourceTree = "<group>"; };
-		808EBE542929327C00E6BEA5 /* PotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotViewController.swift; sourceTree = "<group>"; };
-		808EBE552929327C00E6BEA5 /* FriendStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendStruct.swift; sourceTree = "<group>"; };
-		808EBE562929327C00E6BEA5 /* GroupStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupStruct.swift; sourceTree = "<group>"; };
-		808EBE572929327C00E6BEA5 /* PotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotView.swift; sourceTree = "<group>"; };
 		808EBE60292934AD00E6BEA5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		808EBE622929357700E6BEA5 /* TrendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsVC.swift; sourceTree = "<group>"; };
 		808EBE6729293E3C00E6BEA5 /* AddBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetView.swift; sourceTree = "<group>"; };
@@ -128,6 +121,13 @@
 		808EBE7129295A2B00E6BEA5 /* GreyButtonTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyButtonTextView.swift; sourceTree = "<group>"; };
 		808EBE79292961FA00E6BEA5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		808EBE7C292966C200E6BEA5 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		808EBE7E29296B0E00E6BEA5 /* PotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotViewController.swift; sourceTree = "<group>"; };
+		808EBE7F29296B0E00E6BEA5 /* FriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
+		808EBE8029296B0F00E6BEA5 /* GroupsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsCell.swift; sourceTree = "<group>"; };
+		808EBE8129296B0F00E6BEA5 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		808EBE8229296B0F00E6BEA5 /* GroupStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupStruct.swift; sourceTree = "<group>"; };
+		808EBE8329296B0F00E6BEA5 /* PotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotView.swift; sourceTree = "<group>"; };
+		808EBE8429296B0F00E6BEA5 /* FriendStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,13 +276,13 @@
 		808EBE502929326700E6BEA5 /* Groups */ = {
 			isa = PBXGroup;
 			children = (
-				808EBE522929327B00E6BEA5 /* ChatViewController.swift */,
-				808EBE512929327B00E6BEA5 /* FriendsCell.swift */,
-				808EBE552929327C00E6BEA5 /* FriendStruct.swift */,
-				808EBE532929327C00E6BEA5 /* GroupsCell.swift */,
-				808EBE562929327C00E6BEA5 /* GroupStruct.swift */,
-				808EBE572929327C00E6BEA5 /* PotView.swift */,
-				808EBE542929327C00E6BEA5 /* PotViewController.swift */,
+				808EBE8129296B0F00E6BEA5 /* ChatViewController.swift */,
+				808EBE7F29296B0E00E6BEA5 /* FriendsCell.swift */,
+				808EBE8429296B0F00E6BEA5 /* FriendStruct.swift */,
+				808EBE8029296B0F00E6BEA5 /* GroupsCell.swift */,
+				808EBE8229296B0F00E6BEA5 /* GroupStruct.swift */,
+				808EBE8329296B0F00E6BEA5 /* PotView.swift */,
+				808EBE7E29296B0E00E6BEA5 /* PotViewController.swift */,
 			);
 			path = Groups;
 			sourceTree = "<group>";
@@ -456,13 +456,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				808EBE7729295A2B00E6BEA5 /* TopBarView.swift in Sources */,
-				808EBE5D2929327C00E6BEA5 /* GroupStruct.swift in Sources */,
 				808EBE632929357700E6BEA5 /* TrendsVC.swift in Sources */,
 				808EBE61292934AD00E6BEA5 /* TabBarController.swift in Sources */,
 				808EBE7A292961FA00E6BEA5 /* HomeViewController.swift in Sources */,
+				808EBE8529296B0F00E6BEA5 /* PotViewController.swift in Sources */,
 				808EBE242928DCF400E6BEA5 /* QuestionStruct.swift in Sources */,
-				808EBE5C2929327C00E6BEA5 /* FriendStruct.swift in Sources */,
 				808EBE3D29291CF900E6BEA5 /* AnsweredQuestions.swift in Sources */,
+				808EBE8729296B0F00E6BEA5 /* GroupsCell.swift in Sources */,
 				808EBE2E2928F47E00E6BEA5 /* WhiteBottomButton.swift in Sources */,
 				808EBE4D29292FAF00E6BEA5 /* UIColor+Ext.swift in Sources */,
 				808EBE4B29292FAF00E6BEA5 /* UIButton+Ext.swift in Sources */,
@@ -476,24 +476,24 @@
 				808EBE3F2929228600E6BEA5 /* SummaryCell.swift in Sources */,
 				808EBDDB2928453E00E6BEA5 /* AppDelegate.swift in Sources */,
 				808EBE2A2928E62000E6BEA5 /* ChoiceStruct.swift in Sources */,
-				808EBE5A2929327C00E6BEA5 /* GroupsCell.swift in Sources */,
 				808EBE7529295A2B00E6BEA5 /* PurchasesCell.swift in Sources */,
-				808EBE5E2929327C00E6BEA5 /* PotView.swift in Sources */,
+				808EBE8829296B0F00E6BEA5 /* ChatViewController.swift in Sources */,
 				808EBE7629295A2B00E6BEA5 /* PurchaseStruct.swift in Sources */,
 				808EBE2C2928EB5000E6BEA5 /* TrueOrFalseButtonView.swift in Sources */,
 				808EBE7829295A2B00E6BEA5 /* GreyButtonTextView.swift in Sources */,
 				808EBE4C29292FAF00E6BEA5 /* UISearchTextField+Ext.swift in Sources */,
 				808EBE4A29292FAF00E6BEA5 /* UILabel+Ext.swift in Sources */,
 				808EBE342928F8A900E6BEA5 /* ProgressBar.swift in Sources */,
-				808EBE582929327C00E6BEA5 /* FriendsCell.swift in Sources */,
 				808EBE222928DC6300E6BEA5 /* QuizCell.swift in Sources */,
+				808EBE8A29296B0F00E6BEA5 /* PotView.swift in Sources */,
+				808EBE8929296B0F00E6BEA5 /* GroupStruct.swift in Sources */,
+				808EBE8629296B0F00E6BEA5 /* FriendsCell.swift in Sources */,
 				808EBE39292914AD00E6BEA5 /* SliderView.swift in Sources */,
 				808EBE312928F84000E6BEA5 /* ProgressView.swift in Sources */,
 				808EBE4729292FAF00E6BEA5 /* UIView+Ext.swift in Sources */,
+				808EBE8B29296B0F00E6BEA5 /* FriendStruct.swift in Sources */,
 				808EBE3B29291CCC00E6BEA5 /* SummaryViewController.swift in Sources */,
 				808EBE7229295A2B00E6BEA5 /* GrayButton.swift in Sources */,
-				808EBE592929327C00E6BEA5 /* ChatViewController.swift in Sources */,
-				808EBE5B2929327C00E6BEA5 /* PotViewController.swift in Sources */,
 				808EBE4929292FAF00E6BEA5 /* UITableView+Ext.swift in Sources */,
 				808EBE262928E1F400E6BEA5 /* MultipleChoiceButtons.swift in Sources */,
 				808EBDDD2928453E00E6BEA5 /* SceneDelegate.swift in Sources */,

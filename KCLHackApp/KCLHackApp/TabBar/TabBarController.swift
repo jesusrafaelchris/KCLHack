@@ -9,6 +9,7 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         // remove top line
         tabBar.tintColor = .white
         tabBar.backgroundColor = .black
+        tabBar.unselectedItemTintColor = .white.withAlphaComponent(0.3)
 }
 
 // Tab Bar Specific Code

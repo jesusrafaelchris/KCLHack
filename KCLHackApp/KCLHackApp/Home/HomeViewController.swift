@@ -73,11 +73,6 @@ class HomeViewController: UIViewController {
             purchase(emoji: "💰", category: "BlackRock", name: "Salary", amount: "+£4089.24")
         ]
     }
-    
-//    let quiz = QuizViewController()
-//    let nav = UINavigationController(rootViewController: quiz)
-//    nav.modalPresentationStyle = .fullScreen
-//    self.navigationController?.present(nav, animated: true)
 
     func setUpView(){
         view.addSubview(topBarView)

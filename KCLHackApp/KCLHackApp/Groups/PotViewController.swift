@@ -36,7 +36,7 @@ class PotViewController: UIViewController {
     
     lazy var groupTitle: UILabel = {
         let text = UILabel()
-        text.layout(colour: .white, size: 22, text: "BlackRock Friends", bold: true)
+        text.layout(colour: .white, size: 18, text: "BlackRock Hackathon", bold: true)
         return text
     }()
     
@@ -79,9 +79,9 @@ class PotViewController: UIViewController {
         super.viewDidLoad()
         setUpView()
         friends = [
-            friend(image: "Member1", name: "Artemiy", saverStatus: "Super Saver", num: "65%"),
-            friend(image: "Member2", name: "Christian", saverStatus: "Medium Saver", num: "34%"),
-            friend(image: "Member3", name: "Adesh", saverStatus: "Mediocre Saver", num: "3%")
+            friend(image: "Member1", name: "Artemiy", saverStatus: "Super Saver", num: "65%", rank: "1"),
+            friend(image: "Member2", name: "Christian", saverStatus: "Medium Saver", num: "34%", rank: "2"),
+            friend(image: "Member3", name: "Adesh", saverStatus: "Mediocre Saver", num: "8%", rank: "3")
         ]
         view.backgroundColor = .black
         
@@ -113,7 +113,7 @@ class PotViewController: UIViewController {
         addButton.anchor(top: view.safeAreaLayoutGuide.topAnchor, paddingTop: 8, bottom: nil, paddingBottom: 0, left: member2.rightAnchor, paddingLeft: 6, right: nil, paddingRight: 0, width: 34, height: 34)
         addButton.centerYAnchor.constraint(equalTo: centery!).isActive = true
         
-        groupTitle.anchor(top: view.safeAreaLayoutGuide.topAnchor, paddingTop: 10, bottom: nil, paddingBottom: 0, left: addButton.rightAnchor, paddingLeft: 20, right: nil, paddingRight: 0, width: 0, height: 0)
+        groupTitle.anchor(top: view.safeAreaLayoutGuide.topAnchor, paddingTop: 10, bottom: nil, paddingBottom: 0, left: addButton.rightAnchor, paddingLeft: 24, right: nil, paddingRight: 0, width: 0, height: 0)
         groupTitle.centerYAnchor.constraint(equalTo: centery!).isActive = true
         
         bellButton.anchor(top: view.safeAreaLayoutGuide.topAnchor, paddingTop: 12, bottom: nil, paddingBottom: 0, left: nil, paddingLeft: 0, right: view.rightAnchor, paddingRight: 8, width: 0, height: 0)

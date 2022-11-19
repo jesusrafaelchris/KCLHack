@@ -36,9 +36,12 @@ class ChatViewController: UIViewController {
         super.viewDidLoad()
         setUpView()
         groups = [
-            group(image: "BlackRock", name: "BlackRock Friends", memberCount: "Members: 3"),
-            group(image: "Polygon", name: "Polygon Bros", memberCount: "Members: 8"),
-            group(image: "Tezos", name: "Tezos Group", memberCount: "Members: 5")
+            group(image: "BlackRock", name: "BlackRock Hackathon", memberCount: "Members: 3"),
+            group(image: "KCL", name: "EE King's '23", memberCount: "Members: 8"),
+            group(image: "KCLTech", name: "KCL Tech Society", memberCount: "Members: 15"),
+            group(image: "HackKings", name: "HackKing's Group", memberCount: "Members: 4"),
+            group(image: "Football", name: "Football Club", memberCount: "Members: 25"),
+            group(image: "Taekwando", name: "Taekwando Society", memberCount: "Members: 5")
         ]
         
     }

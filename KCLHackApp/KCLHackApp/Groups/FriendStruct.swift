@@ -5,4 +5,5 @@ struct friend {
     var name: String
     var saverStatus: String
     var num: String
+    var rank: String
 }

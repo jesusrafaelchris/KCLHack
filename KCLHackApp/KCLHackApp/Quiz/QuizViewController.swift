@@ -7,7 +7,7 @@ class QuizViewController: UIViewController {
     var value = 0
     
     var quizQuestions: [Question] = [
-        Question(question: "How much did u spend on nandos this week?", image: "🍔", answerType: QuestionTypes.multipleChoice, answer: "£300", choices: Choices(choice1: "£500", choice2: "£300", choice3: "£100")),
+        Question(question: "How much did you spend on nandos this week?", image: "🍔", answerType: QuestionTypes.multipleChoice, answer: "£300", choices: Choices(choice1: "£500", choice2: "£300", choice3: "£100")),
         Question(question: "You spent more on shopping than food this month, T or F?", image: "🛍️ 🙋 🍟", answerType: QuestionTypes.TrueOrFalse, answer: "True", choices: nil),
         Question(question: "How far through your budget are you?", image: "📊", answerType: QuestionTypes.slider, answer: "77", choices: nil),
         Question(question: "You spent £300 in one day, T or F?", image: "🚣", answerType: QuestionTypes.TrueOrFalse, answer: "True", choices: nil),
@@ -196,7 +196,7 @@ extension QuizViewController: MultipleChoiceSelectionDelegate, TrueOrFalseSelect
             answers.append(AnsweredQuestions(questiontitle: question, correct: true))
         }
         else {
-            showErrorMessage(error: "You really love to shop! Try setting a budget for your shopping to try to save some money on those ")
+            showErrorMessage(error: "You really love to shop! Try setting a budget for your shopping to try to save some money on those Gucci shoes..")
             showAddBudget()
             button.backgroundColor = .red
             quizCollectionView.isUserInteractionEnabled = false

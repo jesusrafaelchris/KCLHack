@@ -10,7 +10,7 @@ class AddBudgetView: UIView {
     
     lazy var budgetValue: UILabel = {
         let label = UILabel()
-        label.layout(colour: .white, size: 20, text: "25", bold: true)
+        label.layout(colour: .white, size: 20, text: "£25", bold: true)
         return label
     }()
     

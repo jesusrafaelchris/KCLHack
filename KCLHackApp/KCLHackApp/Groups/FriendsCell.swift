@@ -24,6 +24,17 @@ class FriendsCell: UICollectionViewCell {
         return text
     }()
     
+    lazy var rankLabel: UILabel = {
+        let rank = UILabel()
+        rank.layout(colour: .red, size: 14, text: "1", bold: true)
+        rank.backgroundColor = .orange
+        rank.layer.cornerRadius = 7.5
+        rank.layer.masksToBounds = true
+        rank.textAlignment = .center
+        rank.translatesAutoresizingMaskIntoConstraints = false
+        return rank
+    }()
+    
     lazy var featuredStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .vertical
@@ -55,12 +66,16 @@ class FriendsCell: UICollectionViewCell {
         titleLabel.text = data.name
         descriptionLabel.text = data.saverStatus
         percentLabel.text = data.num
+        rankLabel.text = data.rank
     }
     
     func setupView() {
+        addSubview(rankLabel)
         addSubview(imageView)
         addSubview(featuredStackView)
         addSubview(percentLabel)
+        
+        rankLabel.anchor(top: imageView.topAnchor, paddingTop: -2, bottom: nil, paddingBottom: 1, left: nil, paddingLeft: 0, right: imageView.rightAnchor, paddingRight: -10, width: 15, height: 15)
         
         imageView.anchor(top: topAnchor, paddingTop: 6, bottom: bottomAnchor, paddingBottom: 6, left: leftAnchor, paddingLeft: 0, right: nil, paddingRight: 0, width: 44, height: 44)
         
