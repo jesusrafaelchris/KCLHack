@@ -16,6 +16,7 @@
 		808EBDF22928454000E6BEA5 /* KCLHackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBDF12928454000E6BEA5 /* KCLHackAppTests.swift */; };
 		808EBDFC2928454000E6BEA5 /* KCLHackAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBDFB2928454000E6BEA5 /* KCLHackAppUITests.swift */; };
 		808EBDFE2928454000E6BEA5 /* KCLHackAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBDFD2928454000E6BEA5 /* KCLHackAppUITestsLaunchTests.swift */; };
+		808EBE0B2928D8FE00E6BEA5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EBE0A2928D8FE00E6BEA5 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		808EBDF72928454000E6BEA5 /* KCLHackAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCLHackAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		808EBDFB2928454000E6BEA5 /* KCLHackAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCLHackAppUITests.swift; sourceTree = "<group>"; };
 		808EBDFD2928454000E6BEA5 /* KCLHackAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCLHackAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		808EBE0A2928D8FE00E6BEA5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,9 @@
 		808EBDD92928453E00E6BEA5 /* KCLHackApp */ = {
 			isa = PBXGroup;
 			children = (
-				808EBDDA2928453E00E6BEA5 /* AppDelegate.swift */,
-				808EBDDC2928453E00E6BEA5 /* SceneDelegate.swift */,
-				808EBDDE2928453E00E6BEA5 /* ViewController.swift */,
-				808EBDE02928453E00E6BEA5 /* Main.storyboard */,
-				808EBDE32928454000E6BEA5 /* Assets.xcassets */,
-				808EBDE52928454000E6BEA5 /* LaunchScreen.storyboard */,
+				808EBE0C2928D91000E6BEA5 /* Core */,
 				808EBDE82928454000E6BEA5 /* Info.plist */,
+				808EBE0A2928D8FE00E6BEA5 /* ChatViewController.swift */,
 			);
 			path = KCLHackApp;
 			sourceTree = "<group>";
@@ -125,6 +123,19 @@
 				808EBDFD2928454000E6BEA5 /* KCLHackAppUITestsLaunchTests.swift */,
 			);
 			path = KCLHackAppUITests;
+			sourceTree = "<group>";
+		};
+		808EBE0C2928D91000E6BEA5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				808EBDDA2928453E00E6BEA5 /* AppDelegate.swift */,
+				808EBDDC2928453E00E6BEA5 /* SceneDelegate.swift */,
+				808EBDDE2928453E00E6BEA5 /* ViewController.swift */,
+				808EBDE02928453E00E6BEA5 /* Main.storyboard */,
+				808EBDE32928454000E6BEA5 /* Assets.xcassets */,
+				808EBDE52928454000E6BEA5 /* LaunchScreen.storyboard */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				808EBDDF2928453E00E6BEA5 /* ViewController.swift in Sources */,
 				808EBDDB2928453E00E6BEA5 /* AppDelegate.swift in Sources */,
+				808EBE0B2928D8FE00E6BEA5 /* ChatViewController.swift in Sources */,
 				808EBDDD2928453E00E6BEA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
